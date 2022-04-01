@@ -1,0 +1,16 @@
+
+.arrowIcon{
+    color: white;
+    font-size: 2rem;
+    cursor: pointer;
+    background: black;
+    border-radius: 5px;
+
+    
+}
+
+.arrowIcon:hover{
+    color: white;
+    
+}
+
