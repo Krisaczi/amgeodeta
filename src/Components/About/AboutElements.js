@@ -227,7 +227,7 @@ export const ImagesArrows = styled.div`
 
     @media screen and (max-width: 480px), screen and (max-height: 950px) {
 
-        right: -4.3%;
+        right: -7.6%;
         bottom: 50%;
     }
 

@@ -1,8 +1,8 @@
 import React from 'react';
 import { ServicesContainer, ServicesWrapper, 
- Card1, Card1Image, Card1Background, Card1Content, Card1Text, Card1H1, 
- Card2, Card2Background, Card2Image, Card2Text, Card2Content, Card2H1,
- Card3, Card3Background, Card3Image, Card3Text, Card3Content, Card3H1
+ Card1, Card1Image, Card1Background, Card1Content, Card1Text, Card1P, 
+ Card2, Card2Background, Card2Image, Card2Text, Card2Content, Card2P,
+ Card3, Card3Background, Card3Image, Card3Text, Card3Content, Card3P
 } from './ServicesElements';
 
 import Icon1 from '../../Pictures/pomiary.jpg'
@@ -19,7 +19,7 @@ const Services = () => {
         
               <Card1>
               <Card1Content>
-                      <Card1H1>POMIARY</Card1H1>
+                      <Card1P>POMIARY</Card1P>
                         <Card1Background>
                             <Card1Image src={Icon1}></Card1Image>
                         </Card1Background>
@@ -32,7 +32,7 @@ const Services = () => {
               </Card1>
               <Card2>
                   <Card2Content>
-                      <Card2H1>OBŁUGA INWESTYCJI</Card2H1>
+                      <Card2P>OBŁUGA INWESTYCJI</Card2P>
                       <Card2Background>
                           <Card2Image src={Icon2}></Card2Image>
                       </Card2Background>`
@@ -45,7 +45,7 @@ const Services = () => {
               </Card2>
               <Card3>
                 <Card3Content>
-                  <Card3H1>MAPY PROJEKTOWE</Card3H1>
+                  <Card3P>MAPY PROJEKTOWE</Card3P>
                   <Card3Background>
                       <Card3Image src={Icon3}></Card3Image>
                   </Card3Background>

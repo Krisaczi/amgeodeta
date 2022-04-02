@@ -31,13 +31,13 @@ font-family: 'Amiri', serif;
     }
 
     @media screen and (max-width: 1200px) and (min-width: 481px) {
-        font-size: 3rem;
+        font-size: 1.5rem;
       
         
     }
 
     @media screen and (min-width: 1201px) {
-            font-size: 2rem;
+            font-size: 1.5rem;
           
             
     }

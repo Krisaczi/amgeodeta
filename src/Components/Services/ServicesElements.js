@@ -123,8 +123,9 @@ flex-direction: column;
 justify-content: center;
 align-items: center;
 `
-export const Card1H1 = styled.h2`
+export const Card1P = styled.p`
 color: white;
+font-size: 1.1rem;
 
 @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) {
   
@@ -133,12 +134,13 @@ color: white;
 
 `
 export const Card1Text = styled.p`
-font-size: 1.1rem;
+font-size: 1rem;
 color: white;
 z-index: 4;
 text-align: center;
 display: inline-block;
 max-width: 400px;
+margin-top: 0;
 
 @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) {
   
@@ -182,9 +184,9 @@ flex-direction: column;
 justify-content: center;
 align-items: center;
 `
-export const Card2H1 = styled.h2`
+export const Card2P = styled.p`
 color: white;
-
+font-size: 1.1rem;
 @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) {
   
   font-size: 2rem;
@@ -219,12 +221,13 @@ opacity: 40%;
 border-radius: 10px;
 `
 export const Card2Text = styled.p`
-font-size: 1.1rem;
+font-size: 1rem;
 color: white;
 z-index: 4;
 text-align: center;
 display: inline-block;
 max-width: 400px;
+margin-top: 0;
 
 @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) {
   
@@ -264,8 +267,9 @@ box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2), 0 7px 20px 0 rgba(0, 0, 0, 0.2);
     width: 320px;
     }
 `
-export const Card3H1 = styled.h2`
+export const Card3P = styled.p`
 color: white;
+font-size: 1.1rem;
 
 @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) {
   
@@ -307,12 +311,14 @@ opacity: 40%;
 border-radius: 10px;
 `
 export const Card3Text = styled.p`
-font-size: 1.1rem;
+font-size: 1rem;
 color: white;
 z-index: 4;
 text-align: center;
 display: inline-block;
 max-width: 400px;
+margin-top: 0;
+line-hight: 0;
 
 @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) {
   
