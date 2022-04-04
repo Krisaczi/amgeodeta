@@ -28,7 +28,6 @@ setIsOpen(!isOpen);
     <>
         <HamburgerMenu isOpen={isOpen} toggle={toggle}/>
         <Nav toggle={toggle}/>
-        
         <Hero />
         <FirstSection {...homeOjectOne}/>
         <Discover />
@@ -37,7 +36,6 @@ setIsOpen(!isOpen);
         <Contact  {...ContactObject}/>
         <Comments />
         <Footer />
-        
         </>
   )
 }

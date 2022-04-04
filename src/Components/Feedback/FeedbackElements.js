@@ -160,16 +160,13 @@ font-size: 12px;
 color: red;
 `           
 export const LogoBtnLink = styled(Link)`
-border-radius: 50px;
-background: #01bf71;
+
 white-space: nowrap;
-padding: 10px 22px;
 color: #010606;
-font-size: 16px;
+font-size: 2rem;
 outline: none;
 border: none;
 cursor: pointer;
-transition: all 0.5s ease-in-out;
 text-decoration: none;
 
 `
