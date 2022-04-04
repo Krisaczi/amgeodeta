@@ -17,6 +17,7 @@ z-index: 10;
 font-family: 'Amiri', serif;
 
 
+
 @media screen and (max-width: 960px) {
 transition: 0.8s all ease;
 
@@ -117,6 +118,7 @@ display: none;
 
 };
 
+
 `;
 export const NavigationItem = styled.li`
 height: 80px;
@@ -127,6 +129,11 @@ padding: 0 10px;
 display: flex;
 align-items: center;
 
+}
+&:hover {
+
+    background-color: #01bf71;
+    color: black;
 }
 
 `;
@@ -140,8 +147,10 @@ padding: 0 1rem;
 height: 100%;
 cursor: pointer;
 
-&:active, :hover {
-    border-bottom: 3px solid #01bf71;
+&:hover {
+    
+    opacity: 0.4;
+    color: black;
 };
 
 `; 
