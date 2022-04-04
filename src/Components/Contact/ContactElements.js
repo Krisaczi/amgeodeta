@@ -172,49 +172,49 @@ justify-content: center;
 
 
 `
-export const Form = styled.div`
+// export const Form = styled.div`
 
-height: auto;
-z-index: 1;
-display: flex;
-margin: 0 auto;
-border-radius: 4px;
+// height: auto;
+// z-index: 1;
+// display: flex;
+// margin: 0 auto;
+// border-radius: 4px;
 
-@media screen and (max-width: 480px), screen and (max-height: 600px)  {
+// @media screen and (max-width: 480px), screen and (max-height: 600px)  {
        
-    display: flex;
-    flex-direction: column;
+//     display: flex;
+//     flex-direction: column;
     
-};
+// };
 
-@media screen and (max-width: 480px), screen and (max-height: 950px)  {
+// @media screen and (max-width: 480px), screen and (max-height: 950px)  {
    
     
-    margin: 0 auto;
-    width: 350px;
+//     margin: 0 auto;
+//     width: 350px;
     
-};
+// };
 
-@media screen and (max-width: 1200px) and (min-width: 481px) {
+// @media screen and (max-width: 1200px) and (min-width: 481px) {
    
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+//     display: flex;
+//     flex-direction: column;
+//     justify-content: center;
+//     align-items: center;
     
   
 
-}
+// }
 
-@media screen and (min-width: 1201px) {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+// @media screen and (min-width: 1201px) {
+//     display: flex;
+//     flex-direction: column;
+//     justify-content: center;
+//     align-items: center;
 
-}
+// }
 
-` 
+// ` 
 export const FeedbackH1 = styled.h1`
 font-size: 2rem;
 text-align: center;

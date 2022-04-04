@@ -38,7 +38,7 @@ const Forms = () => {
   return (
    <>
         <FeedbackContainer id="opinions">
-        <Icon to="/">AMG</Icon>
+        <Icon to="/index">AMG</Icon>
             <FeedbackWrapper>                 
                 <FromContent>
                 <Form action="/" validate>                       

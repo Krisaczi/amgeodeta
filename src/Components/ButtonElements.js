@@ -5,7 +5,7 @@ export const Button = styled(LinkScroll)`
 border-radius: 50px;
 background: ${({primary}) => primary ? '#01bf71' : '#010606'};
 white-space: nowrap;
-padding: ${({big}) => big ? '14px 48px' : '12px 30px' };
+padding: ${({big}) => big ? '12px 38px' : '10px 25px' };
 color: ${({dark}) => dark ? '#010606': '#ffffff'};
 font-size: ${({fontBig}) => fontBig ? '20px' : '16px'};
 outline: none;
@@ -25,13 +25,13 @@ font-family: 'Amiri', serif;
 
 
 @media screen and (max-width: 480px), screen and (max-height: 950px)  {
-    font-size: 1.5rem;
+    font-size: 1.1rem;
   
     
     }
 
     @media screen and (max-width: 1200px) and (min-width: 481px) {
-        font-size: 1.5rem;
+        font-size: 1.1rem;
       
         
     }

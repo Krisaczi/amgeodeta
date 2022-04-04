@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@emailjs/browser": "^3.5.0",
     "@fortawesome/fontawesome-svg-core": "^6.1.0",
     "@fortawesome/free-solid-svg-icons": "^6.1.0",
     "@fortawesome/react-fontawesome": "^0.1.18",
@@ -10,10 +11,10 @@
     "@testing-library/jest-dom": "^5.16.2",
     "@testing-library/react": "^12.1.4",
     "@testing-library/user-event": "^13.5.0",
-    "eslint-plugin-react-hooks": "^4.2.1-rc.2-next-645ec5d6f-20220317",
     "firebase": "^9.6.9",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
+    "react-final-form": "^6.5.9",
     "react-hook-form": "^7.29.0",
     "react-icons": "^4.3.1",
     "react-recaptcha": "^2.3.10",
@@ -58,6 +59,7 @@
   "license": "ISC",
   "devDependencies": {
     "@types/react-scroll": "^1.8.3",
-    "@types/styled-components": "^5.1.24"
+    "@types/styled-components": "^5.1.24",
+    "eslint-plugin-react-hooks": "^4.4.0"
   }
 }

@@ -7,7 +7,6 @@ background-color: #d3d3d3;
 box-sizing: border-box;
 padding: 0;
 margin: 0;
-width: 100vw;
 font-family: 'Amiri', serif;
 
 `
@@ -60,7 +59,6 @@ flex-direction: row;
 align-items: flex-start;
 margin: 16px;
 text-align: left;
-width: 100vw;
 padding: 5px 20px;
 box-sizing: border-box;
 margin: 0 5px;
@@ -105,7 +103,6 @@ color: black;
 text-decoration: none;
 margin-bottom: 0.5rem;
 font-size: 14px;
-width: 800px;
 margin: 5px 5px;
 background-color: pink;
 padding: 5px 20px;
@@ -143,7 +140,7 @@ background-color: #d3d3d3;
 
 export const WebsiteRightsWrapper = styled.div`
 
-width: 100vw;;
+
 display: flex;
 align-items: center;
 justify-content: center;

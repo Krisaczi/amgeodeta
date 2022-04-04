@@ -25,8 +25,10 @@ const Services = () => {
                         </Card1Background>
                         <Card1Text>
                         Inwentaryzacja powykonawcza budynków.
+
                         Pomiary objętości mas ziemnych.
                         Pomiary i inwentaryzacje pomieszczeń.
+                       
                         </Card1Text>
                     </Card1Content>
               </Card1>

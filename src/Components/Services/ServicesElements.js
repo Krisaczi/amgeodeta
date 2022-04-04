@@ -25,7 +25,7 @@ padding: 0;
 
 
 @media screen and (min-width: 1201px) {
-width: 100vw;
+width: 100%;
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
@@ -129,7 +129,7 @@ font-size: 1.1rem;
 
 @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) {
   
-  font-size: 2rem;
+  font-size: 1.5rem;
    }
 
 `
@@ -144,11 +144,11 @@ margin-top: 0;
 
 @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) {
   
- font-size: 1.5rem;
+ font-size: 1rem;
   }
 
   @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
-    font-size: 1.5rem;
+    font-size: 1rem;
   }
 `
 export const Card2 = styled.div`
@@ -189,7 +189,7 @@ color: white;
 font-size: 1.1rem;
 @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) {
   
-  font-size: 2rem;
+  font-size: 1.5rem;
   text-align: center;
    }
 
@@ -231,11 +231,11 @@ margin-top: 0;
 
 @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) {
   
-  font-size: 1.5rem;
+  font-size: 1rem;
    }
 
    @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
-     font-size: 1.5rem;
+     font-size: 1rem;
    }
 `
 export const Card3 = styled.div`
@@ -269,11 +269,11 @@ box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2), 0 7px 20px 0 rgba(0, 0, 0, 0.2);
 `
 export const Card3P = styled.p`
 color: white;
-font-size: 1.1rem;
+
 
 @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) {
   
-  font-size: 2rem;
+  font-size: 1.5rem;
   text-align: center;
    }
 
@@ -322,11 +322,11 @@ line-hight: 0;
 
 @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) {
   
-  font-size: 1.5rem;
+  font-size: 1rem;
   text-align: center;
    }
 
    @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
-    font-size: 1.5rem;
+    font-size: 1rem;
   }
 `

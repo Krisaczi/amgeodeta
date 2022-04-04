@@ -5,6 +5,10 @@ box-sizing: border-box;
 padding: 0;
 margin: 0;
 height: 100vh;
+overflow:hidden
+scrollbar-width: none;
+overflow-y: scroll;
+-ms-overflow-style: none;
 
 @media screen and (max-width: 480px), screen and (max-height: 600px) {
     
@@ -58,8 +62,11 @@ export const AppGalleryContent = styled.div`
     align-items: center;
     flex-direction: column;
 
+    
+    
+
     @media screen and (max-width: 480px), screen and (max-height: 600px) {
-    width: 95%; 
+   
       display: flex;
       flex-direction: column;
       justify-content: center;
@@ -67,7 +74,7 @@ export const AppGalleryContent = styled.div`
 
 }
 @media screen and (max-width: 480px), screen and (max-height: 950px) {
-    width: 95%; 
+  
       display: flex;
       flex-direction: column;
       justify-content: center;
@@ -82,6 +89,8 @@ export const AppGaleryImages = styled.div`
     flex-direction: row;
     max-width: 50%;
     position: relative;
+    overflow-y: hidden; 
+    overflow-x: hidden; 
    
 
     @media screen and (max-width: 480px), screen and (max-height: 600px) {
@@ -115,6 +124,8 @@ export const ImagesContainer = styled.div`
     &:-webkit-scrollbar {
         display: none;
     }
+    overflow-y: hidden; 
+    overflow-x: hidden; 
 
 
     @media screen and (max-width: 480px), screen and (max-height: 600px) {
@@ -125,6 +136,12 @@ export const ImagesContainer = styled.div`
         object-fit: cover;
         background-repeat: no-repeat;
         background-size: cover;
+        overflow-x: scroll;  
+        -ms-overflow-style: none;
+        scrollbar-width: none;  
+        &:-webkit-scrollbar {
+            display: none;
+        }
     }
 
     @media screen and (max-width: 480px), screen and (max-height: 950px) {
@@ -136,12 +153,18 @@ export const ImagesContainer = styled.div`
         background-repeat: no-repeat;
         background-size: cover;
         margin-top: -30px;
+       
+        -ms-overflow-style: none;
+        scrollbar-width: none;  
+        &:-webkit-scrollbar {
+            display: none;
+        }
     }
 `
 export const ImagesCard = styled.div`
     position: relative;   
-    min-width: 350px;
-    // height: 347px;
+    min-width: 301px;
+    height: 447px;
     margin-right: 2rem;
     justify-content: center;
     align-items: flex-start;
@@ -151,7 +174,7 @@ export const ImagesCard = styled.div`
     object-fit: cover;
     background-repeat: no-repeat;
     background-size: cover;
-    
+    padding: 0 20px;
     &:hover{
 
        opacity: 50%;
@@ -159,10 +182,17 @@ export const ImagesCard = styled.div`
 
     @media screen and (min-width: 2000px) {
        
-            // min-width: 400px;
-            // height: 347px;
-        
+            min-width: 400px;
+            height: 347px;
+            padding: 0px;
     }
+
+    @media screen and (max-width: 650px) {
+        min-width: 240px;
+        height: 320px;
+        padding: 0px;
+    }
+
 
     @media screen and (max-width: 480px), screen and (max-height: 600px) {
         
@@ -181,7 +211,7 @@ export const ImagesCard = styled.div`
         object-fit: cover;
         background-repeat: no-repeat;
         background-size: cover;
-        min-width: 400px;
+        // min-width: 400px;
         height: 347px;
         
        
@@ -222,24 +252,25 @@ export const ImagesArrows = styled.div`
     @media screen and (max-width: 480px), screen and (max-height: 600px) {
 
         right: -5.5%;
-        bottom: 50%;
+        bottom: 5%;
     }
 
     @media screen and (max-width: 480px), screen and (max-height: 950px) {
 
         right: -7.6%;
-        bottom: 50%;
+        bottom: 5%;
     }
 
     @media screen and (max-width: 1200px) and (min-width: 481px) {
-        right: -2.1%;
-        bottom: 50%;
+        right: -4%;
+        bottom: 5%;
         
     }
 
     @media screen and (min-width: 1201px) {
 
         right: -1.5%;
+       
     }
 `
 export const AppGalleryH1 = styled.h1 `
@@ -269,18 +300,18 @@ export const AppGalleryP = styled.p`
   
  
   @media screen and (max-width: 480px), screen and (max-height: 950px) {
-    font-size: 1.2rem;
+    font-size: 1rem;
     padding-bottom: 20px;
     
  }
 
  @media screen and (max-width: 1200px) and (min-width: 481px) {
-    font-size: 32px;
+    font-size: 1rem;
     line-height: 1;
 }
 
 @media screnn and (min-width: 1201px) {
-    font-size: 3rem;
+    font-size: 2rem;
 }
 
 `

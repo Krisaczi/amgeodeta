@@ -150,7 +150,7 @@ color: ${({darkText}) => (darkText ? '#010606' : '#f9f9f9' )};
 
 @media screen and (max-width: 1200px) and (min-width: 481px)
 {
-    font-size: 1.5rem;
+    font-size: 1rem;
     
     text-align: justify;
 }
@@ -206,7 +206,7 @@ height: 100%;
 }
 `
 export const Img = styled.img`
-width: 65%;
+width: 75%;
 margin: 0 0 10px 0;
 padding-right: 0;
 -o-object-fit: cover;
