@@ -2,8 +2,8 @@ import React, { useEffect } from "react";
 import { useState } from "react";
 import { db } from "../../config/firebase";
 import { getDocs, addDoc, collection } from "firebase/firestore";
-import { FeedbackContainer, FeedbackWrapper, FromContent, FeedbackH1, Form, FormInput, FormLabel, FormTextArea, FormButton,} from "./FeedbackElements";
-import { NavigationBtnLink } from "../Nav/NavElements";
+import { FeedbackContainer, FeedbackWrapper, FromContent, FeedbackH1, Form, FormInput, Icon,  FormLabel, FormTextArea, FormButton,} from "./FeedbackElements";
+
 
  
 
@@ -39,7 +39,7 @@ const Forms = () => {
   return (
    <>
         <FeedbackContainer id="opinions">
-        <NavigationBtnLink to="/index">AMG</NavigationBtnLink>
+        <Icon to="/">AMG</Icon>
             <FeedbackWrapper>                 
                 <FromContent>
                 <Form action="/" validate>                       

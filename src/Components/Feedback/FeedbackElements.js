@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import { Link } from "react-router-dom"
+import { Link } from "react-router-dom";
 
 export const FeedbackContainer = styled.div`
     margin: 100px auto;
@@ -159,14 +159,3 @@ export const FormError = styled.p`
 font-size: 12px;
 color: red;
 `           
-export const LogoBtnLink = styled(Link)`
-
-white-space: nowrap;
-color: #010606;
-font-size: 2rem;
-outline: none;
-border: none;
-cursor: pointer;
-text-decoration: none;
-
-`

@@ -12,7 +12,7 @@ function App() {
     <>
         <Router>
             <Routes>
-                <Route exact path="/index" element={<Home/>}  />
+                <Route exact path="/" element={<Home/>}  />
                 <Route exact path="/feedback" element={<LeaveFeedback/>}  />
             </Routes>
             
