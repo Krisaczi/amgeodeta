@@ -3,10 +3,10 @@ import styled, { css } from 'styled-components'
 const btn = (light, dark) => css`
   white-space: nowrap;
   display: inline-block;
-  border-radius: 5px;
-  padding: 5px 15px;
+  border-radius: 50px;
+  padding: 10px 35px;
   font-size: 16px;
-  color: white;
+  color: black;
   &:visited {
     color: white;
   }
@@ -14,6 +14,7 @@ const btn = (light, dark) => css`
   border: 1px solid ${dark};
   &:hover {
     background-image: linear-gradient(${light}, ${dark});
+    
     &[disabled] {
       background-image: linear-gradient(${light}, ${dark});
     }
@@ -31,7 +32,7 @@ const btnDefault = css`
   ${btn('#ffffff', '#d5d5d5')} color: #555;
 `
 
-const btnPrimary = btn('#4f93ce', '#285f8f')
+const btnPrimary = btn('#01bf71', '#01bf71')
 const btnDanger = btn('#e27c79', '#c9302c')
 
 export default styled.div`
@@ -69,7 +70,6 @@ export default styled.div`
   form {
     max-width: 500px;
     margin: 10px auto;
-    // border: 1px solid #ccc;
     padding: 20px;
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
     border-radius: 3px;
@@ -152,6 +152,8 @@ export default styled.div`
       }
       &:hover{
         cursor: pointer;
+        color: white;
+        
       }
     }
     .error {
