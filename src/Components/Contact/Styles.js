@@ -75,6 +75,11 @@ export default styled.div`
     border-radius: 3px;
     position: relative;
 
+    @media screen and (max-width: 500px) {
+      display: flex;
+      flex-direction: column;
+    }
+
     .loading {
       text-align: center;
       display: block;
@@ -97,6 +102,12 @@ export default styled.div`
       line-height: 2em;
       margin: 5px;
       position: relative;
+
+      @media screen and (max-width: 500px) {
+
+        display: flex;
+        flex-direction: column;
+      }
       & > label {
         color: #333;
         width: 110px;
