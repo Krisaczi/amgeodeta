@@ -41,7 +41,7 @@ export const AppGallery = styled.div`
    
         @media screen and (max-width: 480px), screen and (max-height: 950px) {
        
-            padding-top: 100px;
+            padding-top: 50px;
             display: flex;
             flex-direction: column;
             justify-content: center;
@@ -61,6 +61,7 @@ export const AppGalleryContent = styled.div`
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    
 
     
     
@@ -84,7 +85,7 @@ export const AppGalleryContent = styled.div`
 `
 export const AppGaleryImages = styled.div`
     flex: 1;
-    margin: 100px auto;
+    margin: 30px auto;
     display: flex;
     flex-direction: row;
     max-width: 50%;
@@ -315,11 +316,3 @@ export const AppGalleryP = styled.p`
 }
 
 `
-
-
-
-
-
-
-
-
